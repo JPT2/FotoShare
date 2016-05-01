@@ -1,0 +1,23 @@
+.head {
+	margin: 0 auto;
+	position: relative;
+	height: 100px;
+}
+
+header.main {
+	padding-top: 0;
+	background: #222;
+	border-bottom: 4px solid #ccc;
+	border-top: 2px solid #000;
+	padding: 0 12px;
+}
+
+.gallery img {
+	display: block;
+	margin: auto;
+}
+
+#logo {
+	display: block;
+	margin: auto;
+}

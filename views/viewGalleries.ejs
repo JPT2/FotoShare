@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Foto - Share Photos With Friends!</title>
+
+		<!-- CSS Stylesheets -->
+		<link rel="stylesheet" href="../css/normalize.css">
+        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/styles.css">
+        <script src="../js/jquery-1.11.1.js"></script>
+	</head>
+	<body>
+	<header class="main">
+       	<div class="head">
+       	</div>
+    </header>
+    <div class="wrapper">
+        <div class="stage">
+            <div class="gallery">
+                <p id='picName'> <%= name %> </p>
+                <button type="button" id="prev"> Previous </button>
+                <button type="button" id="next"> Next </button>
+                <img class= <%= galName %> id=<%= name %> src=<%= path %> style="width:600px;height:600px0;">
+            </div>
+            <form method="post">
+                <p> Change gallery: <select id="galSelect" name="galName">
+                </select> </p>
+                <p><input id='submit' type="submit"></p>
+            </form>
+        </div>
+    </div>
+    
+    <p><a href="/gallery/new">Create Gallery</a></p>  
+    <p><a href="/test/new">Upload Image</a></p> 
+    <p><a href="/home"> Back </a></p>
+    <p><a href="/logout">Log out</a></p>
+    <script src='../js/galleryViewManager.js'></script>
+	</body>
+</html>

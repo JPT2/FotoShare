@@ -1,0 +1,32 @@
+{
+  "users": {
+    "admin": {
+      "_id": "54c1321303069f7ee53adcfb",
+      "username": "admin",
+      "password": "password",
+      "galleries": ["seedGallery"]
+    }
+  },
+  "Galleries": {
+    "test": {
+      "_id": "6a4928afd0f20971d82105e4",
+      "name": "seedGallery",
+      "owner": "admin",
+      "members": [{"username": "admin"}, {"username": "Donald"}],
+      "images": [
+             "AdirondacksEsqueMountains.jpg",
+             "bridge.jpg", 
+             "citySkylineWithBridge.jpg",
+             "CItyWithRiverTHourhgMiddle.jpg",
+             "Cool-Golden-Gate-Bridge.jpg",
+             "mountains.jpg",
+             "MountainsideBeach.jpg",
+             "MousePadLandscape.jpg",
+             "paradise.jpg",
+             "RailRoadTrackBackground.jpg",
+             "SimpleRaftInValley.jpg",
+             "StreetInTheMountains.jpg"
+            ]
+    }
+  }
+}
